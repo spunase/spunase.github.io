@@ -9,14 +9,14 @@ body {
 .display-2 {
   color: #50C7D6;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
 }
 
 .display-4 {
     color: #50C7D6;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 40px;
     
 }
 
@@ -44,6 +44,7 @@ body {
   padding:30px !important;
   padding-top:0px !important;
 }
+
 .main-box {
   padding:30px;
   width:100%;
@@ -54,10 +55,11 @@ body {
   float: left;
 }
 .main-box a img{
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   margin-top:0px;
   margin-right: 10px;
+  margin-left: 15px
 }
 
 /* footer on the landing page*/
@@ -75,10 +77,17 @@ body {
 
 /* comparison page*/
 .comparison-box {
-  padding:60px;
+  padding:30px;
   width:100%;
-  margin-top:60px;
+  margin-top:30px;
   min-height: 70vh;
+}
+
+.comparison-box a img{
+  width: 150px;
+  height: 150px;
+  margin-top:0px;
+  margin-right: 10px;
 }
 .whiteback {
   background-color: white;
@@ -89,7 +98,9 @@ body {
   margin:30px;
   width: 100%;
 }
-.image-photo {
+
+
+.comparison-box a img {
   padding-top: 5px;
   padding-bottom: 10px;
   width: 600px;
